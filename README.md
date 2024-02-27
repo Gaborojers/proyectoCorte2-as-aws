@@ -1,1 +1,0 @@
-# proyectoCorte2-as-aws
