@@ -12,9 +12,9 @@ export class BotonComponent {
 
     ejecutarEvento() {
         const producto = {
-            name: 'Nombre del Producto',
-            description: 'Descripción del Producto',
-            price: 100 // Precio del Producto
+            name: 'Coca-Cola',
+            description: 'Refresco',
+            price: 220 // Precio del Producto
         };
 
         this.http.post<any>('http://localhost:3000/productos', producto).subscribe(

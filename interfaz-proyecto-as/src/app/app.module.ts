@@ -9,7 +9,7 @@ import { BotonComponent } from './boton/boton.component';
 @NgModule({
   declarations: [
     AppComponent,
-    BotonComponent
+    BotonComponent,
   ],
   imports: [
     BrowserModule,

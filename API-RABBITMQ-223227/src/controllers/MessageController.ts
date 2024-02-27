@@ -8,7 +8,7 @@ export class MessageController {
     this.rabbitMQService = new RabbitMQService();
   }
 
-  async consumeMessage(req: Request, res: Response) {
+  async consumeMessage(req: Request, res: Response) { 
     try {
       await this.rabbitMQService.consumeMessage();
       res.status(200).json({ message: 'Message consumed successfully' });

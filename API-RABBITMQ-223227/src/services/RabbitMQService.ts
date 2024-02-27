@@ -9,7 +9,7 @@ export class RabbitMQService {
 
     channel.consume(queueName, (msg) => {
       if (msg !== null) {
-        const messageContent = msg.content.toString();
+        const messageContent = msg.content.toString(); 
         console.log('Message received:', messageContent);
         // Aquí procesas el mensaje según tus necesidades
         channel.ack(msg);
